@@ -1,0 +1,48 @@
+body{
+  background-color:black;
+  text-align:auto;
+  text-justify: inter-cluster;
+  color:white;
+  font-family:"Questrial", sans-serif;
+  padding:50px;
+  margin: 0 auto;
+  max-width: 50em;
+}
+/*
+.quote{
+  font-family:"Handlee", cursive;
+}
+*/
+.h2{
+  padding:5px;
+}
+a {
+  color:darkslategray;
+  text-decoration: none;
+}
+a:hover{
+  color:darkslategray;
+  text-decoration: none;
+}
+a:visited {
+  color:darkslategray;
+  text-decoration:none;
+}
+div {
+  padding:1em;
+}
+.purple{
+  color:purple;
+}
+.fire {
+  color:tomato;
+}
+.red{
+  color:red;
+}
+.carbon{
+  color:darkslategray;
+}
+.harmony {
+  color:darkorchid;
+}
