@@ -46,3 +46,11 @@ $("#link6" ).click(function() {
    $("#p7").addClass("animated flipIn");
   $('html, body').animate({scrollTop: $("#p7").offset().top}, 2000);
 });
+$("#link7" ).click(function() {
+   $("#end").removeClass("invisible");
+   $("#p7").css("color","gray");
+   $("#story").parent().css("background-color","white");
+   $("#end").css("color","black");
+   $("#end").addClass("animated easeIn");
+  $('html, body').animate({scrollTop: $("#end").offset().top}, 2000);
+});
