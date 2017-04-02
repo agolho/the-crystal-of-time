@@ -1,0 +1,46 @@
+html{
+  margin:0 auto;
+  margin-top: 5em;
+  font-family: "Roboto Condensed",sans-serif;
+}
+a:hover{
+  text-decoration: none;
+}
+.timecrystal{
+   font-family: "Macondo",fantasy;
+   background-image: url("../img/crystal.jpg");
+   width: 30em;
+   height: 30em;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-shadow: 2px 2px 5px black;
+   box-shadow: 0 0 5px 15px black inset;
+   border-radius: 20px;
+}
+.timecrystal:hover{
+  box-shadow: 0 0 25px 25px black inset;
+}
+.mars{
+   font-family: "Oswald",sans-serif;
+   background-image: url("../img/mars.jpg");
+   width: 30em;
+   height: 30em;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-shadow: 2px 2px 5px black;
+   box-shadow: 0 0 5px 15px black inset;
+   border-radius: 20px;
+}
+.mars:hover{
+  box-shadow: 0 0 25px 25px black inset;
+}
+.main{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
